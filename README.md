@@ -1,0 +1,1 @@
+# coreum-chain-registry
