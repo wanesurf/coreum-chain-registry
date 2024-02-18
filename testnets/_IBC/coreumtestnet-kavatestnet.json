@@ -1,0 +1,31 @@
+{
+    "$schema": "../ibc_data.schema.json",
+    "chain_1": {
+        "chain_name": "coreumtestnet",
+        "client_id": "07-tendermint-71",
+        "connection_id": "connection-51"
+    },
+    "chain_2": {
+        "chain_name": "celestiatestnet3",
+        "client_id": "07-tendermint-25",
+        "connection_id": "connection-86"
+    },
+    "channels": [
+      {
+        "chain_1": {
+            "channel_id": "channel-35",
+            "port_id": "transfer"
+        },
+        "chain_2": {
+            "channel_id": "channel-75",
+            "port_id": "transfer"
+        },
+        "ordering": "unordered",
+        "version": "ics20-1",
+        "tags": {
+          "status": "live",
+          "preferred": true
+        }
+      }
+    ]
+  }
